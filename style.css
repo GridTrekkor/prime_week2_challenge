@@ -1,0 +1,19 @@
+#FormDiv {
+	font: bold 16px/28px Helvetica;
+}
+
+#TotalSalary {
+	position : absolute;
+	top : 5px;
+	right : 5px;
+	font: bold 26px/28px Helvetica;
+	color : #F00;
+
+}
+
+#EmployeeList {
+}
+
+.Bold { font-weight : bold; }
+
+.RemoveButton { }

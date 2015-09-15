@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <script src="app.js"></script>
+        <title>prime_week2_challenge</title>
+    </head>
+    
+    <body>
+
+    <div id="TotalSalary">Total Salary: $<span id="Sal">0</span></div>
+
+    <form id="EmployeeForm" action="javascript:void(0);">
+    	<div id="FormDiv">
+    		First Name<br />
+	    	<input type="text" id="FirstName"><br />
+	    	Last Name<br />
+	    	<input type="text" id="LastName"><br />
+	    	Employee Number<br />
+	    	<input type="text" id="EmployeeNumber"><br />
+	    	Title<br />
+	    	<input type="text" id="Title"><br />
+	    	Last Review Score<br />
+	    	<input type="text" id="LastReviewScore"><br />
+	    	Salary<br />
+	    	<input type="text" id="Salary"><br />
+	    	<input type="submit" id="SubmitButton" value="Submit">
+    	</div>
+	</form>
+    
+    <button id="RandomData">Random</button>&nbsp;&nbsp;&nbsp;<button id="Alpha">Alphabetize</button>
+
+
+    	<!-- <ul id="EmployeeList"></ul> -->
+    	<table cellpadding=5 cellspacing=0 border=1 id="EmployeeTable">
+    		<tr class="Bold">
+    			<td><span style="color:#F00">X</span></td>
+    			<td>First Name</td>
+    			<td>Last Name</td>
+    			<td>Emp Number</td>
+    			<td>Title</td>
+    			<td>Score</td>
+    			<td>Salary</td>
+    		</tr>
+    	</table>
+
+
+
+    </body>
+</html>
