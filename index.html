@@ -16,43 +16,46 @@
     
     <body>
 
-    <div id="TotalSalary">Total Salary: $<span id="Sal">0</span></div>
+    	<div id="Main">
 
-    <form id="EmployeeForm" action="javascript:void(0);">
-    	<div id="FormDiv">
-    		First Name<br />
-	    	<input type="text" id="FirstName"><br />
-	    	Last Name<br />
-	    	<input type="text" id="LastName"><br />
-	    	Employee Number<br />
-	    	<input type="text" id="EmployeeNumber"><br />
-	    	Title<br />
-	    	<input type="text" id="Title"><br />
-	    	Last Review Score<br />
-	    	<input type="text" id="LastReviewScore"><br />
-	    	Salary<br />
-	    	<input type="text" id="Salary"><br />
-	    	<input type="submit" id="SubmitButton" value="Submit">
-    	</div>
-	</form>
-    
-    <button id="RandomData">Random</button>&nbsp;&nbsp;&nbsp;<button id="Alpha">Alphabetize</button>
+		    <div id="TotalSalary">Total Salary: $<span id="Sal">0</span></div>
 
+		    <form id="EmployeeForm" action="javascript:void(0);">
+		    	<div id="FormDiv">
+		    		<span class="InputName">First Name</span><br />
+			    	<input type="text" id="FirstName"><br />
+			    	<span class="InputName">Last Name</span><br />
+			    	<input type="text" id="LastName"><br />
+			    	<span class="InputName">Employee Number</span><br />
+			    	<input type="text" id="EmployeeNumber"><br />
+			    	<span class="InputName">Title</span><br />
+			    	<input type="text" id="Title"><br />
+			    	<span class="InputName">Last Review Score</span><br />
+			    	<input type="text" id="LastReviewScore"><br />
+			    	<span class="InputName">Salary</span><br />
+			    	<input type="text" id="Salary"><br /><br />
+			    	<input type="submit" id="SubmitButton" value="Submit">
+		    	</div>
+			</form>
+		    
+		    <br /><br />
 
-    	<!-- <ul id="EmployeeList"></ul> -->
-    	<table cellpadding=5 cellspacing=0 border=1 id="EmployeeTable">
-    		<tr class="Bold">
-    			<td><span style="color:#F00">X</span></td>
-    			<td>First Name</td>
-    			<td>Last Name</td>
-    			<td>Emp Number</td>
-    			<td>Title</td>
-    			<td>Score</td>
-    			<td>Salary</td>
-    		</tr>
-    	</table>
+		    <button id="RandomData">Random</button>&nbsp;&nbsp;&nbsp;<button id="Alpha">Alphabetize</button>
 
+	    	<table cellpadding=5 cellspacing=0 border=1 id="EmployeeTable">
+	    		<tr class="Bold">
+	    			<td><span style="color:#F00">X</span></td>
+	    			<td>First Name</td>
+	    			<td>Last Name</td>
+	    			<td>Emp Number</td>
+	    			<td>Title</td>
+	    			<td>Score</td>
+	    			<td>Salary</td>
+	    		</tr>
+	    	</table>
 
+	    </div>
 
     </body>
+
 </html>

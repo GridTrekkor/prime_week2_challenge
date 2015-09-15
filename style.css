@@ -1,3 +1,7 @@
+#Main {
+	margin : 20px 20px 20px 20px;
+}
+
 #FormDiv {
 	font: bold 16px/28px Helvetica;
 }
@@ -17,3 +21,12 @@
 .Bold { font-weight : bold; }
 
 .RemoveButton { }
+
+#EmployeeTable {
+		margin : 20px 20px 20px 20px;
+
+}
+
+.InputName {
+	color : #00A;
+}
